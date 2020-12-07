@@ -4,7 +4,7 @@
 using namespace std;
 
 void getInput(vector<string> &groups, vector<int> &amount) {
-    ifstream in("6-input.txt");
+    ifstream in("inputs/6-input.txt");
     int n = 0;
     groups.push_back("");
     amount.push_back(0);

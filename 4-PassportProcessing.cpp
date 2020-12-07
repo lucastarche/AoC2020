@@ -4,7 +4,7 @@
 using namespace std;
 
 void getInput(vector<string> &passports) {
-    ifstream in("4-input.txt");
+    ifstream in("inputs/4-input.txt");
     if (passports.empty()) passports.push_back("");
     for (string buf; getline(in, buf);) {
         if (buf == "") { 

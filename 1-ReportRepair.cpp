@@ -4,7 +4,7 @@
 using namespace std;
 
 void getInput(vector<int> &nums) {
-    ifstream in("1-input.txt");
+    ifstream in("inputs/1-input.txt");
     for (int i; in >> i;) {
         nums.push_back(i);
     }

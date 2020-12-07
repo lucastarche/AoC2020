@@ -10,7 +10,7 @@ struct Query {
 };
 
 void getInput(vector<Query> &tasks) {
-    ifstream in("2-input.txt");
+    ifstream in("inputs/2-input.txt");
     for (string buf; getline(in, buf);) {
         Query q;
         stringstream bufStream(buf);

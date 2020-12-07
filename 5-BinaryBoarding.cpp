@@ -4,7 +4,7 @@
 using namespace std;
 
 void getInput(vector<string> &tickets) {
-    ifstream in("5-input.txt");
+    ifstream in("inputs/5-input.txt");
     for (string buf; in >> buf;) {
         tickets.push_back(buf);
     }

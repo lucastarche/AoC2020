@@ -4,7 +4,7 @@
 using namespace std;
 
 void getInput(vector<string> &map) {
-    ifstream in("3-input.txt");
+    ifstream in("inputs/3-input.txt");
     for (string buf; getline(in, buf);) {
         map.push_back(buf);
     }
